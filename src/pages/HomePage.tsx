@@ -48,7 +48,10 @@ const HomePage: React.FC = () => {
           Digital Marketing Expert
         </h2>
         <p className="max-w-3xl mx-auto text-gray-600 leading-relaxed mb-12 text-lg"> {/* Ensured leading-relaxed */}
-          With over 15 years of experience, Sarah Liu specializes in helping New Zealand businesses effectively reach and engage the Chinese market through comprehensive digital marketing strategies. Whether your business aims to export to China or import products for the local New Zealand market, Sarah delivers tailored digital solutions that drive results in e-commerce, retail, travel, and education sectors.
+          Cross-Border Digital & IT Project Consultant | Information Sciences, Massey University
+        </p>
+        <p className="max-w-3xl mx-auto text-gray-600 leading-relaxed mb-12 text-lg">
+          Former IT Project Manager at a major healthcare group in China, leading end-to-end delivery of multiple digital systems. Now based in New Zealand, Sarah leverages AI technologies, data insights, and digital strategy to help local businesses effectively engage the Chinese market. She excels at turning complex business needs into clear, actionable technical solutions.
         </p>
 
         {/* Service Cards - Added hover effect */}
