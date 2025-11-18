@@ -63,18 +63,6 @@ const ExperiencePage: React.FC = () => {
         "Spearheaded website redesign focused on clear structure and user-friendly interfaces, reducing bounce rates by 18%.",
         "Utilized TV interviews, promotional videos, magazines, newspapers, online forums, and blogs to broaden brand reach."
       ]
-    },
-    {
-      dates: "2007 - 2010",
-      role: "Website Planning & Design Specialist",
-      company: "Beijing Lianchuang Network Technology Co., Ltd.",
-      location: "Beijing",
-      responsibilities: [
-        "Devised keyword strategies and optimized article titles, increasing daily organic traffic from 100 to 20,000 within 3-6 months, focusing on sustainable growth.",
-        "Used Microsoft Visio to map out website content and structure, optimizing layouts and information architecture, resulting in 30% boost in user engagement and 20% increase in online transactions.",
-        "Leveraged various channels—friend links, forums, blogs, and Baidu Tieba—to build brand exposure and user loyalty.",
-        "Managed over 30 website projects on time and within budget, leading to follow-up contracts worth approximately NZD 2 million."
-      ]
     }
   ];
 
@@ -82,7 +70,7 @@ const ExperiencePage: React.FC = () => {
    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12"> {/* Added padding */}
       <h1 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-8">Professional Experience</h1>
       <p className="text-center text-gray-600 text-lg mb-16 md:mb-20 leading-relaxed max-w-3xl mx-auto"> {/* Adjusted margin and max-width */}
-        Over the past 15+ years, I've built expertise in managing digital marketing campaigns, focusing on social media, SEO/SEM, and content creation, particularly for the Chinese market. Based in Auckland, I leverage my international experience to deliver data-driven marketing results across various sectors.
+        Over the past years, I've built expertise in managing digital marketing campaigns, focusing on social media, SEO/SEM, and content creation, particularly for the Chinese market. Based in Auckland, I leverage my international experience to deliver data-driven marketing results across various sectors.
       </p>
 
       {/* Experience Timeline */}
