@@ -48,6 +48,11 @@ const AboutPage: React.FC = () => {
         <h2 className="text-2xl font-semibold text-gray-800 mb-6 border-b pb-2">Education</h2>
         <div className="relative pl-6 border-l-2 border-pink-300 space-y-6">
            <EducationItem
+             degree="Graduate Diploma in Information Sciences"
+             institution="Massey University"
+             years="2025 – Present"
+           />
+           <EducationItem
              degree="New Zealand Certificate in English Language (Level 5)"
              institution=""
              years=""
