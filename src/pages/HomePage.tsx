@@ -45,9 +45,9 @@ const HomePage: React.FC = () => {
       {/* Digital Marketing Expert Section - Minor adjustments */}
       <section className="text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6"> {/* Adjusted margin */}
-          Digital Marketing Expert
+          Cross-Border Digital & IT Solutions Specialist | Information Sciences, Massey University
         </h2>
-        <p className="max-w-3xl mx-auto text-gray-600 leading-relaxed mb-12 text-lg"> {/* Ensured leading-relaxed */}
+        <p className="max-w-3xl mx-auto text-gray-600 leading-relaxed mb-4 text-lg"> {/* Ensured leading-relaxed */}
           Cross-Border Digital & IT Project Consultant | Information Sciences, Massey University
         </p>
         <p className="max-w-3xl mx-auto text-gray-600 leading-relaxed mb-12 text-lg">
