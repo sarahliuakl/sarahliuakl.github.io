@@ -20,7 +20,7 @@ const AboutPage: React.FC = () => {
         <div className="md:col-span-2">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">Professional Summary</h2>
           <p className="text-gray-600 leading-relaxed mb-6">
-            A results-driven Digital Marketing Expert with over 15 years of experience managing impactful campaigns across social media, SEO/SEM, and content marketing. Specializing in bridging New Zealand businesses with the Chinese market. Currently based in Auckland, leveraging extensive international experience to craft and execute tailored, data-driven marketing strategies that deliver measurable results across e-commerce, retail, tourism, and education sectors.
+            A results-driven Digital Marketing Expert with years of experience managing impactful campaigns across social media, SEO/SEM, and content marketing. Specializing in bridging New Zealand businesses with the Chinese market. Currently based in Auckland, leveraging extensive international experience to craft and execute tailored, data-driven marketing strategies that deliver measurable results across e-commerce, retail, tourism, and education sectors.
           </p>
           <p className="text-gray-600 leading-relaxed">
             Known for exceptional communication, cross-functional leadership, and analytical problem-solving skills, consistently driving brand growth and customer engagement for businesses expanding between New Zealand and China.

@@ -70,7 +70,7 @@ const ExperiencePage: React.FC = () => {
    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12"> {/* Added padding */}
       <h1 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-8">Professional Experience</h1>
       <p className="text-center text-gray-600 text-lg mb-16 md:mb-20 leading-relaxed max-w-3xl mx-auto"> {/* Adjusted margin and max-width */}
-        Over the past years, I've built expertise in managing digital marketing campaigns, focusing on social media, SEO/SEM, and content creation, particularly for the Chinese market. Based in Auckland, I leverage my international experience to deliver data-driven marketing results across various sectors.
+        Over the years, I've built expertise in managing digital marketing campaigns, focusing on social media, SEO/SEM, and content creation, particularly for the Chinese market. Based in Auckland, I leverage my international experience to deliver data-driven marketing results across various sectors.
       </p>
 
       {/* Experience Timeline */}
