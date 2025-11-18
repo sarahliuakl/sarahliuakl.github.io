@@ -45,7 +45,7 @@ const HomePage: React.FC = () => {
       {/* Digital Marketing Expert Section - Minor adjustments */}
       <section className="text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6"> {/* Adjusted margin */}
-          Cross-Border Digital & IT Solutions Specialist | Information Sciences, Massey University
+          Cross-Border Digital and IT Solutions Specialist | Information Sciences, Massey University
         </h2>
         <p className="max-w-3xl mx-auto text-gray-600 leading-relaxed mb-12 text-lg">
           Former IT Project Manager at a major healthcare group in China, leading end-to-end delivery of multiple digital systems. Now based in New Zealand, Sarah leverages AI technologies, data insights, and digital strategy to help local businesses effectively engage the Chinese market. She excels at turning complex business needs into clear, actionable technical solutions.
