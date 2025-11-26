@@ -60,7 +60,7 @@ const AboutPage: React.FC = () => {
            <EducationItem
              degree="Diploma in Advertising and Promotion"
              institution="Chongqing University of Technology"
-             years="2003 – 2006"
+             years=""
            />
         </div>
       </section>
