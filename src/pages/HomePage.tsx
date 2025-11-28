@@ -198,25 +198,25 @@ const HomePage: React.FC = () => {
         </section>
       )}
 
-      {/* CTA Section - New */}
-      <section className="bg-gradient-to-r from-pink-500 to-purple-600 rounded-2xl p-8 md:p-12 text-center text-white">
-        <h2 className="text-2xl md:text-3xl font-bold mb-4">
+      {/* CTA Section - Updated to match site theme */}
+      <section className="bg-gradient-to-br from-pink-50 via-white to-purple-50 rounded-2xl p-8 md:p-12 text-center border border-pink-100">
+        <h2 className="text-2xl md:text-3xl font-bold mb-4 text-gray-900">
           Ready to Expand into China's Digital Market?
         </h2>
-        <p className="text-pink-100 mb-8 max-w-2xl mx-auto">
+        <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
           Whether you're a Kiwi brand looking to reach Chinese consumers or need bilingual digital marketing expertise, let's discuss how I can help.
         </p>
         <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
           <Link
             to="/contact"
-            className="bg-white text-pink-600 font-medium py-3 px-8 rounded-lg shadow-md hover:shadow-lg hover:bg-gray-50 transition-all duration-300 inline-flex items-center justify-center"
+            className="bg-pink-500 hover:bg-pink-600 text-white font-medium py-3 px-8 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 inline-flex items-center justify-center"
           >
             Get in Touch
             <ArrowRight className="w-4 h-4 ml-2" />
           </Link>
           <Link
             to="/portfolio"
-            className="bg-transparent border-2 border-white text-white font-medium py-3 px-8 rounded-lg hover:bg-white/10 transition-all duration-300"
+            className="bg-white hover:bg-gray-50 text-gray-700 font-medium py-3 px-8 rounded-lg border border-gray-300 shadow-sm hover:shadow-md transition-all duration-300"
           >
             View My Work
           </Link>
