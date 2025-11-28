@@ -71,8 +71,27 @@ export const fetchPosts = async (): Promise<PostData[]> => {
     }
   }
 
-  // Sort posts in reverse alphabetical order by slug (newest dates first)
-   posts.sort((a, b) => b.slug.localeCompare(a.slug)); // Reverse sort by slug (newest first)
+  // Sort posts: dated posts first (newest to oldest), then undated posts alphabetically
+  posts.sort((a, b) => {
+    // Check if slugs start with a date pattern (YYYY- or YYYY-MM- or YYYY-MM-DD-)
+    const datePatternA = a.slug.match(/^(\d{4}(-\d{2})?(-\d{2})?)/);
+    const datePatternB = b.slug.match(/^(\d{4}(-\d{2})?(-\d{2})?)/);
+    
+    const hasDateA = datePatternA !== null;
+    const hasDateB = datePatternB !== null;
+    
+    // If both have dates, sort by date descending (newest first)
+    if (hasDateA && hasDateB) {
+      return b.slug.localeCompare(a.slug);
+    }
+    
+    // Dated posts come before undated posts
+    if (hasDateA && !hasDateB) return -1;
+    if (!hasDateA && hasDateB) return 1;
+    
+    // Both undated: sort alphabetically
+    return a.slug.localeCompare(b.slug);
+  });
 
   return posts;
 };
