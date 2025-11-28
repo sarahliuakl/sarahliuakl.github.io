@@ -71,8 +71,8 @@ export const fetchPosts = async (): Promise<PostData[]> => {
     }
   }
 
-  // Optional: Sort posts, e.g., by slug or add date later
-   posts.sort((a, b) => a.slug.localeCompare(b.slug)); // Simple sort by slug
+  // Sort posts in reverse alphabetical order by slug (newest dates first)
+   posts.sort((a, b) => b.slug.localeCompare(a.slug)); // Reverse sort by slug (newest first)
 
   return posts;
 };
