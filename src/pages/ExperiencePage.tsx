@@ -27,6 +27,18 @@ const ExperienceItem: React.FC<{
 const ExperiencePage: React.FC = () => {
   const experiences = [
     {
+      dates: "Nov 2025 - Present",
+      role: "Initiator / Product & AI Integration Lead",
+      company: "Imagine Cup 2026 – HiLily Project",
+      location: "Auckland",
+      responsibilities: [
+        "Founder and original initiator of HiLily, a 3-member team project submitted to Microsoft Imagine Cup 2026, focused on an AI voice companion for older adults living alone.",
+        "Led the project from user needs discovery and product definition to MVP delivery, owning core product and technical decisions.",
+        "Integrated the Microsoft AI stack (Azure OpenAI, Speech services), and designed a long-term conversational memory and context management pipeline.",
+        "Hands-on contributor to end-to-end system integration, including prompt design, API integration, and MVP validation."
+      ]
+    },
+    {
       dates: "2016 - 2022",
       role: "Project Manager",
       company: "Beijing Ruiyousi Information Technology Co., Ltd.",
