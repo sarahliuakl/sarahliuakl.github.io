@@ -9,7 +9,6 @@ const AboutPage: React.FC = () => {
         {/* Image Column */}
         <div className="md:col-span-1 flex justify-center">
           <img
-            // Using a placeholder image URL from Unsplash
             src="/images/sarahliu.png"
             alt="Sarah Liu"
             className="rounded-lg w-full max-w-xs object-cover shadow-md"
@@ -20,26 +19,26 @@ const AboutPage: React.FC = () => {
         <div className="md:col-span-2">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">Professional Summary</h2>
           <p className="text-gray-600 leading-relaxed mb-6">
-            A results-driven Digital Marketing Expert with years of experience managing impactful campaigns across social media, SEO/SEM, and content marketing. Specializing in bridging New Zealand businesses with the Chinese market. Currently based in Auckland, leveraging extensive international experience to craft and execute tailored, data-driven marketing strategies that deliver measurable results across e-commerce, retail, tourism, and education sectors.
+            A versatile Software Developer and IT Project Manager with a strong background in Information Sciences from Massey University. I specialize in building AI-powered applications and full-stack web solutions. With years of experience leading digital transformations in major healthcare and tech groups, I bridge the gap between complex technical architecture and business-driven results.
           </p>
           <p className="text-gray-600 leading-relaxed">
-            Known for exceptional communication, cross-functional leadership, and analytical problem-solving skills, consistently driving brand growth and customer engagement for businesses expanding between New Zealand and China.
+            Currently focused on leveraging modern web technologies (React, Node.js, TypeScript) and AI integration (Azure OpenAI, LLMs) to create innovative solutions. I am passionate about clean code, scalable systems, and delivering exceptional user experiences through data-driven development.
           </p>
         </div>
       </div>
 
       {/* Core Competencies */}
       <section className="mb-16">
-        <h2 className="text-2xl font-semibold text-gray-800 mb-6 border-b pb-2">Core Competencies</h2>
+        <h2 className="text-2xl font-semibold text-gray-800 mb-6 border-b pb-2">Technical Competencies</h2>
         <div className="space-y-4">
-          <CompetencyItem title="Digital Marketing Strategy:" description="Strategic campaign planning, execution, and performance analysis." />
-          <CompetencyItem title="Social Media Management:" description="Targeted marketing in WeChat, ReNote, Douyin (TikTok), Facebook and Instagram." />
-          <CompetencyItem title="SEO & SEM Optimization:" description="Expert in keyword research, on-page/off-page SEO strategies, and paid search management." />
-          <CompetencyItem title="Content Creation & Localization:" description="Producing bilingual (English & Mandarin) content that resonates with targeted audiences." />
-          <CompetencyItem title="Digital Media Production:" description="Skilled in creating engaging videos and high-conversion landing pages." />
-          <CompetencyItem title="Data-Driven Analysis:" description="Proficient in Google Analytics, KPI tracking, and advanced Excel reporting." />
-          <CompetencyItem title="Cross-Functional Collaboration:" description="Effective experience collaborating with creative, technical, and business teams." />
-          <CompetencyItem title="Project Management:" description="Effective in scheduling, resource allocation, and stakeholder communications." />
+          <CompetencyItem title="Full-Stack Development:" description="Proficient in React, TypeScript, Node.js, and modern CSS frameworks like Tailwind." />
+          <CompetencyItem title="AI & Integration:" description="Experienced in integrating LLMs (OpenAI, Claude), prompt engineering, and AI voice services." />
+          <CompetencyItem title="Software Engineering:" description="Strong foundation in algorithms, data structures, and system design principles." />
+          <CompetencyItem title="Database Management:" description="Skilled in SQL and NoSQL database design, optimization, and integration." />
+          <CompetencyItem title="IT Project Management:" description="Expert in Agile methodologies, end-to-end SDLC management, and technical leadership." />
+          <CompetencyItem title="Digital Strategy & SEO:" description="Technical SEO optimization, site architecture, and data-driven performance analysis." />
+          <CompetencyItem title="Cloud & DevOps:" description="Familiar with Git version control, CI/CD pipelines, and cloud deployment (Vercel, Netlify)." />
+          <CompetencyItem title="Bilingual Communication:" description="Fluent in English and Mandarin, bridging technical teams across multicultural environments." />
         </div>
       </section>
 
@@ -51,16 +50,17 @@ const AboutPage: React.FC = () => {
              degree="Graduate Diploma in Information Sciences"
              institution="Massey University"
              years="2025 – Present"
+             details="Focusing on Software Development, Algorithms, and Data Management. Actively applying theoretical knowledge to real-world full-stack projects."
            />
            <EducationItem
              degree="New Zealand Certificate in English Language (Level 5)"
-             institution=""
-             years=""
+             institution="Auckland, New Zealand"
+             years="2024"
            />
            <EducationItem
              degree="Diploma in Advertising and Promotion"
              institution="Chongqing University of Technology"
-             years=""
+             years="2008 - 2011"
            />
         </div>
       </section>
@@ -69,10 +69,10 @@ const AboutPage: React.FC = () => {
       <section>
         <h2 className="text-2xl font-semibold text-gray-800 mb-6 border-b pb-2">Personal Attributes</h2>
         <ul className="list-none space-y-3">
-          <AttributeItem text="Detail-oriented execution and analytical mindset" />
-          <AttributeItem text="Strong team collaboration and positive attitude" />
-          <AttributeItem text="Highly adaptable in fast-paced, multicultural environments" />
-          <AttributeItem text="Solution-focused approach to problem-solving" />
+          <AttributeItem text="Analytical problem-solver with a focus on scalable and maintainable code" />
+          <AttributeItem text="Strong technical leader with experience in cross-functional team collaboration" />
+          <AttributeItem text="Continuous learner, staying updated with the latest in AI and web technologies" />
+          <AttributeItem text="Detail-oriented with a commitment to high-quality software delivery" />
         </ul>
       </section>
     </div>
@@ -87,19 +87,20 @@ const CompetencyItem = ({ title, description }: { title: string; description: st
   </div>
 );
 
-const EducationItem = ({ degree, institution, years }: { degree: string; institution: string; years: string }) => (
+const EducationItem = ({ degree, institution, years, details }: { degree: string; institution: string; years: string; details?: string }) => (
   <div className="relative">
      <span className="absolute -left-[34px] top-1 flex h-4 w-4 items-center justify-center rounded-full bg-pink-400 ring-4 ring-white"></span>
      <h3 className="font-semibold text-gray-800">{degree}</h3>
      {institution && <p className="text-sm text-gray-600">{institution} {years && `(${years})`}</p>}
+     {details && <p className="text-sm text-gray-500 mt-1 italic">{details}</p>}
   </div>
 );
 
 const AttributeItem = ({ text }: { text: string }) => (
-   <li className="flex items-start">
-     <span className="flex-shrink-0 w-2 h-2 mt-[9px] mr-3 bg-pink-400 rounded-full"></span>
-     <span className="text-gray-600">{text}</span>
-   </li>
+  <li className="flex items-start">
+    <span className="flex-shrink-0 w-2 h-2 mt-[9px] mr-3 bg-pink-400 rounded-full"></span>
+    <span className="text-gray-600">{text}</span>
+  </li>
 );
 
 

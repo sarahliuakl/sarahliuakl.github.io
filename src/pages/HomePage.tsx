@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Globe, TrendingUp, Code, Sparkles, BookOpen, Languages, BarChart3, Megaphone } from 'lucide-react';
+import { ArrowRight, Globe, TrendingUp, Code, Sparkles, BookOpen, Languages, BarChart3, Megaphone, Terminal, Cpu, Layout } from 'lucide-react';
 import { fetchPosts } from '../utils/blogPosts';
 
 interface PostData {
@@ -32,32 +32,32 @@ const HomePage: React.FC = () => {
           {/* Text Content */}
           <div className="md:col-span-3 text-center md:text-left">
             <div className="inline-flex items-center bg-pink-100 text-pink-700 px-4 py-1.5 rounded-full text-sm font-medium mb-6">
-              <Globe className="w-4 h-4 mr-2" />
-              Auckland, New Zealand 🇳🇿 ↔ China 🇨🇳
+              <Terminal className="w-4 h-4 mr-2" />
+              Software Developer | AI Integration Specialist
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-5 leading-tight">
               Sarah Liu
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-4 max-w-xl mx-auto md:mx-0">
-              Connecting Kiwi Brands with China's Digital Market
+              Building Intelligent Digital Solutions with Code & AI
             </p>
             <p className="text-base text-gray-500 mb-8 max-w-lg mx-auto md:mx-0">
-              Bilingual Digital Marketing Specialist | AI-Powered Solutions | Cross-Border E-commerce Expert
+              Information Sciences @ Massey University | Full-Stack Developer | AI Product Lead | Former IT Project Manager
             </p>
             <div className="flex flex-col sm:flex-row justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
               <Link
-                to="/contact"
+                to="/portfolio"
                 className="bg-pink-500 hover:bg-pink-600 text-white font-medium py-3 px-8 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 text-center inline-flex items-center justify-center"
               >
-                Let's Connect
+                View My Projects
                 <ArrowRight className="w-4 h-4 ml-2" />
               </Link>
               <Link
-                to="/thoughts"
+                to="/contact"
                 className="bg-white hover:bg-gray-50 text-gray-700 font-medium py-3 px-8 rounded-lg border border-gray-300 shadow-sm hover:shadow-md transition-all duration-300 text-center inline-flex items-center justify-center"
               >
-                <BookOpen className="w-4 h-4 mr-2" />
-                Read My Insights
+                <Languages className="w-4 h-4 mr-2" />
+                Let's Connect
               </Link>
             </div>
           </div>
@@ -66,14 +66,14 @@ const HomePage: React.FC = () => {
             <div className="relative">
               <img
                 src="/images/sarahliu1.png"
-                alt="Sarah Liu - Digital Marketing Expert"
+                alt="Sarah Liu - Software Developer"
                 className="rounded-2xl w-72 md:w-80 h-auto object-cover border-4 border-white shadow-xl"
               />
               {/* Floating badge */}
               <div className="absolute -bottom-4 -left-4 bg-white px-4 py-2 rounded-lg shadow-lg">
                 <div className="flex items-center space-x-2">
-                  <Languages className="w-5 h-5 text-pink-500" />
-                  <span className="text-sm font-medium text-gray-700">EN / 中文</span>
+                  <Code className="w-5 h-5 text-pink-500" />
+                  <span className="text-sm font-medium text-gray-700">React / TS / AI</span>
                 </div>
               </div>
             </div>
@@ -81,13 +81,13 @@ const HomePage: React.FC = () => {
         </div>
       </section>
 
-      {/* Stats Section - New */}
+      {/* Stats Section - Updated for Dev focus */}
       <section className="grid grid-cols-2 md:grid-cols-4 gap-6">
         {[
-          { number: '5+', label: 'Years Experience', icon: TrendingUp },
-          { number: '2', label: 'Languages Fluent', icon: Languages },
-          { number: '10+', label: 'AI Tools Mastered', icon: Sparkles },
-          { number: '∞', label: 'Passion for Growth', icon: BarChart3 },
+          { number: '5+', label: 'Years IT Experience', icon: Cpu },
+          { number: '10+', label: 'Projects Delivered', icon: Layout },
+          { number: 'Massey', label: 'Info Sciences', icon: BookOpen },
+          { number: 'AI', label: 'Integration Expert', icon: Sparkles },
         ].map((stat, index) => (
           <div key={index} className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center hover:shadow-md transition-shadow">
             <stat.icon className="w-8 h-8 text-pink-500 mx-auto mb-3" />
@@ -97,41 +97,41 @@ const HomePage: React.FC = () => {
         ))}
       </section>
 
-      {/* About Section - Enhanced */}
+      {/* About Section - Enhanced for Dev focus */}
       <section className="text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-          Cross-Border Digital Solutions Specialist
+          Bridging Technology and Business Strategy
         </h2>
         <p className="text-pink-600 font-medium mb-6">Information Sciences, Massey University</p>
         <p className="max-w-3xl mx-auto text-gray-600 leading-relaxed mb-12 text-lg">
-          Former IT Project Manager at a major healthcare group in China, leading end-to-end delivery of multiple digital systems. Now based in New Zealand, I leverage AI technologies, data insights, and digital strategy to help local businesses effectively engage the Chinese market. I excel at turning complex business needs into clear, actionable solutions.
+          Former IT Project Manager at a major healthcare group in China, leading end-to-end delivery of multiple digital systems. Now based in New Zealand and pursuing Information Sciences at Massey University, I combine my project leadership background with hands-on software development and AI integration to build scalable, intelligent applications.
         </p>
 
-        {/* Service Cards - Enhanced with icons */}
+        {/* Service Cards - Updated for Dev focus */}
         <div className="grid md:grid-cols-4 gap-6">
           {[
             {
-              title: 'Digital Production',
-              description: 'Creating engaging videos, landing pages, and visual content that drives conversions across platforms.',
+              title: 'Full-Stack Dev',
+              description: 'Building responsive web applications using React, TypeScript, and modern backend technologies.',
               icon: Code,
               color: 'from-pink-500 to-rose-500'
             },
             {
-              title: 'China Market Entry',
-              description: 'WeChat, Douyin, Xiaohongshu, Zhihu - navigating China\'s unique digital ecosystem for NZ brands.',
-              icon: Globe,
+              title: 'AI Integration',
+              description: 'Implementing LLMs and AI services to create intelligent, context-aware user experiences.',
+              icon: Sparkles,
               color: 'from-purple-500 to-indigo-500'
             },
             {
-              title: 'Advertising Strategy',
-              description: 'Data-driven campaigns across Google, Meta, and Chinese platforms with measurable ROI.',
-              icon: Megaphone,
+              title: 'System Architecture',
+              description: 'Designing robust and scalable digital systems with a focus on performance and maintainability.',
+              icon: Cpu,
               color: 'from-orange-500 to-amber-500'
             },
             {
-              title: 'AI-Powered Marketing',
-              description: 'Leveraging Claude, GPT, Gemini and automation tools to scale content and insights.',
-              icon: Sparkles,
+              title: 'Technical Strategy',
+              description: 'Aligning technical development with business goals through data-driven insights and Agile management.',
+              icon: TrendingUp,
               color: 'from-cyan-500 to-blue-500'
             },
           ].map((service, index) => (
@@ -148,13 +148,13 @@ const HomePage: React.FC = () => {
         </div>
       </section>
 
-      {/* Latest Thoughts Section - New */}
+      {/* Latest Thoughts Section */}
       {latestPosts.length > 0 && (
         <section className="bg-gradient-to-br from-gray-50 to-white py-12 px-8 rounded-2xl">
           <div className="flex justify-between items-center mb-8">
             <div>
               <h2 className="text-2xl md:text-3xl font-bold text-gray-900">Latest Insights</h2>
-              <p className="text-gray-500 mt-1">Thoughts on AI, digital marketing, and cross-border commerce</p>
+              <p className="text-gray-500 mt-1">Thoughts on AI, software development, and digital innovation</p>
             </div>
             <Link 
               to="/thoughts" 
@@ -185,26 +185,16 @@ const HomePage: React.FC = () => {
               </Link>
             ))}
           </div>
-          
-          <div className="md:hidden mt-6 text-center">
-            <Link 
-              to="/thoughts" 
-              className="inline-flex items-center text-pink-600 hover:text-pink-700 font-medium"
-            >
-              View All Insights
-              <ArrowRight className="w-4 h-4 ml-1" />
-            </Link>
-          </div>
         </section>
       )}
 
-      {/* CTA Section - Updated to match site theme */}
+      {/* CTA Section */}
       <section className="bg-gradient-to-br from-pink-50 via-white to-purple-50 rounded-2xl p-8 md:p-12 text-center border border-pink-100">
         <h2 className="text-2xl md:text-3xl font-bold mb-4 text-gray-900">
-          Ready to Expand into China's Digital Market?
+          Looking for a Technical Partner or Developer?
         </h2>
         <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
-          Whether you're a Kiwi brand looking to reach Chinese consumers or need bilingual digital marketing expertise, let's discuss how I can help.
+          Whether you need a full-stack solution, AI integration, or technical project leadership, let's discuss how I can bring your ideas to life.
         </p>
         <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
           <Link
@@ -218,7 +208,7 @@ const HomePage: React.FC = () => {
             to="/portfolio"
             className="bg-white hover:bg-gray-50 text-gray-700 font-medium py-3 px-8 rounded-lg border border-gray-300 shadow-sm hover:shadow-md transition-all duration-300"
           >
-            View My Work
+            View My Portfolio
           </Link>
         </div>
       </section>
