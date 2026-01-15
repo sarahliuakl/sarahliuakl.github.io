@@ -38,18 +38,7 @@ const ExperiencePage: React.FC = () => {
         "Hands-on contributor to end-to-end system integration, including prompt design, API integration, and MVP validation."
       ]
     },
-    {
-      dates: "2025 - Present",
-      role: "Software Development Projects (Academic)",
-      company: "Massey University",
-      location: "Auckland",
-      responsibilities: [
-        "Developed full-stack web applications using React, TypeScript, and Node.js as part of Information Sciences curriculum.",
-        "Designed and implemented complex algorithms and data structures for real-world problem solving.",
-        "Applied software engineering best practices including version control (Git), code review, and Agile methodologies.",
-        "Built scalable backend systems with database optimization and API design."
-      ]
-    },
+
     {
       dates: "2016 - 2022",
       role: "Project Manager",
