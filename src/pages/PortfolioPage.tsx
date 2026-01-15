@@ -135,7 +135,7 @@ const PortfolioPage: React.FC = () => {
       title: "HiLily – AI Voice Companion for Older Adults",
       dates: "Nov 2025 - Present",
       platforms: "Microsoft Azure OpenAI, Azure Speech Services, Mobile App",
-      description: "Founder and original initiator of HiLily, a 3-member team project submitted to Microsoft Imagine Cup 2026. HiLily is an AI voice companion designed to provide emotional support and daily assistance for older adults living alone, addressing the growing challenge of elderly isolation through intelligent conversational technology.",
+      description: "Founder and original initiator of HiLily, a 3-member team project. HiLily is an AI voice companion designed to provide emotional support and daily assistance for older adults living alone, addressing the growing challenge of elderly isolation through intelligent conversational technology.",
       challenges: [
         "Designing natural, empathetic AI conversations suitable for elderly users",
         "Building reliable long-term memory and context management for meaningful ongoing relationships",
@@ -149,7 +149,7 @@ const PortfolioPage: React.FC = () => {
         "Hands-on contribution to prompt design, API integration, and end-to-end system integration"
       ],
       results: [
-        "Successfully delivered MVP for Microsoft Imagine Cup 2026 submission",
+        "Successfully delivered MVP for the HiLily project",
         "Owned core product and technical decisions as Product & AI Integration Lead",
         "Built functional prototype with voice-based AI companion capabilities",
         "Established scalable architecture for future feature expansion"
