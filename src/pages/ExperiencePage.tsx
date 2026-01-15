@@ -44,56 +44,58 @@ const ExperiencePage: React.FC = () => {
       company: "Massey University",
       location: "Auckland",
       responsibilities: [
-        "Developed a full-stack web application using React and Node.js, implementing RESTful APIs and database integration.",
-        "Designed and implemented complex algorithms for data processing and visualization as part of the Information Sciences curriculum.",
-        "Collaborated on version-controlled projects using Git, following Agile methodologies and best practices for software quality.",
-        "Applied software engineering principles to build scalable and maintainable codebases for various course projects."
+        "Developed full-stack web applications using React, TypeScript, and Node.js as part of Information Sciences curriculum.",
+        "Designed and implemented complex algorithms and data structures for real-world problem solving.",
+        "Applied software engineering best practices including version control (Git), code review, and Agile methodologies.",
+        "Built scalable backend systems with database optimization and API design."
       ]
     },
     {
       dates: "2016 - 2022",
-      role: "IT Project Manager & Technical Lead",
+      role: "Project Manager",
       company: "Beijing Ruiyousi Information Technology Co., Ltd.",
       location: "Beijing",
       responsibilities: [
-        "Led the end-to-end development lifecycle of multiple web and mobile applications, bridging the gap between business requirements and technical implementation.",
-        "Managed technical teams to deliver high-quality digital systems, ensuring robust architecture and seamless user experiences.",
-        "Hands-on involvement in system analysis, database design, and API integrations for healthcare and e-commerce platforms.",
-        "Optimized digital products through data-driven insights, using A/B testing and performance monitoring to improve system efficiency and user engagement.",
-        "Coordinated cross-functional teams (Dev, Design, Ops) to ensure timely delivery of complex IT projects within budget."
+        "Oversaw the development and promotion of multiple websites and mobile apps, maintaining a customer satisfaction rate above 90%. Coordinated technical, design, and operations teams to ensure timely, high-quality, and on-budget deliveries.",
+        "Monitored key metrics via Google Analytics, Baidu, and third-party tools. Analyzed cost vs. revenue across channels, identifying highest ROI platforms. Used A/B testing and audience segmentation to raise CTR by 20% and cut acquisition costs by 15%.",
+        "Focused on producing high-value content for WeChat and other new media platforms, driving a 60% increase in online sales for clients.",
+        "Applied strategies like emotional marketing and scarcity marketing, boosting brand awareness and product visibility by 45%.",
+        "Handled multi-channel online sales of New Zealand health supplements, gaining extensive product knowledge and cross-border marketing experience."
       ]
     },
     {
       dates: "2014 - 2016",
-      role: "Digital Systems & Marketing Manager",
+      role: "Online Marketing Manager",
       company: "Beijing Shenghanmei Aesthetic Hospital",
       location: "Beijing",
       responsibilities: [
-        "Spearheaded the complete redesign and technical overhaul of the hospital's web presence, significantly improving UX and conversion rates.",
-        "Implemented automated lead generation and tracking systems, integrating web platforms with CRM tools for better patient management.",
-        "Managed technical aspects of large-scale digital campaigns, ensuring high availability and performance during peak traffic periods.",
-        "Developed and maintained custom web features to enhance user interaction and streamline the online consultation process."
+        "Redesigned the hospital's main website around user experience, increasing overall traffic and consultation conversions by 40%.",
+        "Crafted engaging content across major online platforms, achieving a 35% rise in inquiries for cosmetic procedures.",
+        "Grew WeChat account to 200,000 followers in three months. Through community and Moments campaigns, drove daily visits to 20-30 new patients, increasing net profit by CNY 100K-300K per day.",
+        "Managed both Google Ads and Baidu SEM, improving overall ROI by 50%, delivering significant profitability for the hospital.",
+        "Implemented landing page optimization techniques and A/B testing strategies to improve conversion rates."
       ]
     },
     {
       dates: "2011 - 2014",
-      role: "Web Development & Content Manager",
+      role: "Editorial Department Manager",
       company: "Beijing Baidecheng Technology Co., Ltd.",
       location: "Beijing",
       responsibilities: [
-        "Built and managed a large-scale 'site cluster' using automated content generation and SEO-optimized web structures.",
-        "Developed custom landing pages and web interfaces focused on high conversion and optimal user flow.",
-        "Implemented technical SEO strategies, including site architecture optimization and schema markup, to drive massive organic traffic.",
-        "Managed the technical deployment and maintenance of multiple product-focused websites across various server environments."
+        "Led daily operations of the marketing team, improving landing page design and copywriting. Increased website click-through rates by 50% and boosted inquiry/conversion rates by 30%.",
+        "Built multiple websites targeting different product keywords, leveraging 'site cluster' effects and search engine crawlers, driving daily organic searches into hundreds of millions.",
+        "Oversaw both Google Ads and Baidu PPC, implementing precise bidding and audience targeting strategies, improving overall ROI by 30%.",
+        "Spearheaded website redesign focused on clear structure and user-friendly interfaces, reducing bounce rates by 18%.",
+        "Utilized TV interviews, promotional videos, magazines, newspapers, online forums, and blogs to broaden brand reach."
       ]
     }
   ];
 
   return (
-   <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12"> {/* Added padding */}
+   <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <h1 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-8">Professional Experience</h1>
-      <p className="text-center text-gray-600 text-lg mb-16 md:mb-20 leading-relaxed max-w-3xl mx-auto"> {/* Adjusted margin and max-width */}
-        With a strong foundation in Information Sciences and years of experience in IT project management, I specialize in building and leading the delivery of impactful digital solutions. My expertise bridges the gap between technical development and business strategy, focusing on AI integration, full-stack development, and data-driven optimization.
+      <p className="text-center text-gray-600 text-lg mb-16 md:mb-20 leading-relaxed max-w-3xl mx-auto">
+        Over the years, I've built expertise in managing digital marketing campaigns, focusing on social media, SEO/SEM, and content creation, particularly for the Chinese market. Based in Auckland, I leverage my international experience combined with technical development skills to deliver data-driven marketing results across various sectors.
       </p>
 
       {/* Experience Timeline */}

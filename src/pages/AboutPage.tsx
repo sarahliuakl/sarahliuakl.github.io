@@ -19,26 +19,26 @@ const AboutPage: React.FC = () => {
         <div className="md:col-span-2">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">Professional Summary</h2>
           <p className="text-gray-600 leading-relaxed mb-6">
-            A versatile Software Developer and IT Project Manager with a strong background in Information Sciences from Massey University. I specialize in building AI-powered applications and full-stack web solutions. With years of experience leading digital transformations in major healthcare and tech groups, I bridge the gap between complex technical architecture and business-driven results.
+            A results-driven Digital Marketing Expert with years of experience managing impactful campaigns across social media, SEO/SEM, and content marketing. Specializing in bridging New Zealand businesses with the Chinese market. Currently based in Auckland and pursuing Information Sciences at Massey University, I combine my extensive international marketing background with hands-on software development skills to deliver comprehensive digital solutions.
           </p>
           <p className="text-gray-600 leading-relaxed">
-            Currently focused on leveraging modern web technologies (React, Node.js, TypeScript) and AI integration (Azure OpenAI, LLMs) to create innovative solutions. I am passionate about clean code, scalable systems, and delivering exceptional user experiences through data-driven development.
+            Known for exceptional communication, cross-functional leadership, and analytical problem-solving skills, I consistently drive brand growth and customer engagement while building scalable technical solutions. My unique blend of marketing expertise and development capabilities allows me to bridge business strategy with technical implementation.
           </p>
         </div>
       </div>
 
       {/* Core Competencies */}
       <section className="mb-16">
-        <h2 className="text-2xl font-semibold text-gray-800 mb-6 border-b pb-2">Technical Competencies</h2>
+        <h2 className="text-2xl font-semibold text-gray-800 mb-6 border-b pb-2">Core Competencies</h2>
         <div className="space-y-4">
-          <CompetencyItem title="Full-Stack Development:" description="Proficient in React, TypeScript, Node.js, and modern CSS frameworks like Tailwind." />
-          <CompetencyItem title="AI & Integration:" description="Experienced in integrating LLMs (OpenAI, Claude), prompt engineering, and AI voice services." />
-          <CompetencyItem title="Software Engineering:" description="Strong foundation in algorithms, data structures, and system design principles." />
-          <CompetencyItem title="Database Management:" description="Skilled in SQL and NoSQL database design, optimization, and integration." />
-          <CompetencyItem title="IT Project Management:" description="Expert in Agile methodologies, end-to-end SDLC management, and technical leadership." />
-          <CompetencyItem title="Digital Strategy & SEO:" description="Technical SEO optimization, site architecture, and data-driven performance analysis." />
-          <CompetencyItem title="Cloud & DevOps:" description="Familiar with Git version control, CI/CD pipelines, and cloud deployment (Vercel, Netlify)." />
-          <CompetencyItem title="Bilingual Communication:" description="Fluent in English and Mandarin, bridging technical teams across multicultural environments." />
+          <CompetencyItem title="Digital Marketing Strategy:" description="Strategic campaign planning, execution, and performance analysis across multiple channels." />
+          <CompetencyItem title="Social Media Management:" description="Targeted marketing in WeChat, Douyin (TikTok), Xiaohongshu, Facebook and Instagram with proven results." />
+          <CompetencyItem title="SEO & SEM Optimization:" description="Expert in keyword research, on-page/off-page SEO strategies, landing page optimization, and paid search management." />
+          <CompetencyItem title="Content Creation & Localization:" description="Producing bilingual (English & Mandarin) content that resonates with targeted audiences across platforms." />
+          <CompetencyItem title="Digital Media Production:" description="Skilled in creating engaging videos, high-conversion landing pages, and visual content design." />
+          <CompetencyItem title="Web Development:" description="Full-stack development using React, TypeScript, Node.js, and modern web technologies for marketing and product applications." />
+          <CompetencyItem title="Data-Driven Analysis:" description="Proficient in Google Analytics, KPI tracking, A/B testing, advanced Excel reporting, and performance optimization." />
+          <CompetencyItem title="Project & Team Management:" description="Effective in scheduling, resource allocation, stakeholder communications, and cross-functional collaboration." />
         </div>
       </section>
 
@@ -50,17 +50,17 @@ const AboutPage: React.FC = () => {
              degree="Graduate Diploma in Information Sciences"
              institution="Massey University"
              years="2025 – Present"
-             details="Focusing on Software Development, Algorithms, and Data Management. Actively applying theoretical knowledge to real-world full-stack projects."
+             details="Focusing on software development, algorithms, and technical skills to complement marketing expertise."
            />
            <EducationItem
              degree="New Zealand Certificate in English Language (Level 5)"
-             institution="Auckland, New Zealand"
-             years="2024"
+             institution=""
+             years=""
            />
            <EducationItem
              degree="Diploma in Advertising and Promotion"
              institution="Chongqing University of Technology"
-             years="2008 - 2011"
+             years=""
            />
         </div>
       </section>
@@ -69,10 +69,11 @@ const AboutPage: React.FC = () => {
       <section>
         <h2 className="text-2xl font-semibold text-gray-800 mb-6 border-b pb-2">Personal Attributes</h2>
         <ul className="list-none space-y-3">
-          <AttributeItem text="Analytical problem-solver with a focus on scalable and maintainable code" />
-          <AttributeItem text="Strong technical leader with experience in cross-functional team collaboration" />
-          <AttributeItem text="Continuous learner, staying updated with the latest in AI and web technologies" />
-          <AttributeItem text="Detail-oriented with a commitment to high-quality software delivery" />
+          <AttributeItem text="Detail-oriented execution and analytical mindset" />
+          <AttributeItem text="Strong team collaboration and positive attitude" />
+          <AttributeItem text="Highly adaptable in fast-paced, multicultural environments" />
+          <AttributeItem text="Solution-focused approach to problem-solving" />
+          <AttributeItem text="Continuous learner with passion for emerging technologies and marketing innovations" />
         </ul>
       </section>
     </div>
@@ -97,10 +98,10 @@ const EducationItem = ({ degree, institution, years, details }: { degree: string
 );
 
 const AttributeItem = ({ text }: { text: string }) => (
-  <li className="flex items-start">
-    <span className="flex-shrink-0 w-2 h-2 mt-[9px] mr-3 bg-pink-400 rounded-full"></span>
-    <span className="text-gray-600">{text}</span>
-  </li>
+   <li className="flex items-start">
+     <span className="flex-shrink-0 w-2 h-2 mt-[9px] mr-3 bg-pink-400 rounded-full"></span>
+     <span className="text-gray-600">{text}</span>
+   </li>
 );
 
 
