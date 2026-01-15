@@ -130,6 +130,36 @@ const PortfolioPage: React.FC = () => {
         "Bootstrap marketing: Cost-effective strategies perfect for SMEs",
         "Review management system: Transferable to Google Business Profile optimization"
       ]
+    },
+    {
+      title: "HiLily – AI Voice Companion for Older Adults",
+      dates: "Nov 2025 - Present",
+      platforms: "Microsoft Azure OpenAI, Azure Speech Services, Mobile App",
+      description: "Founder and original initiator of HiLily, a 3-member team project submitted to Microsoft Imagine Cup 2026. HiLily is an AI voice companion designed to provide emotional support and daily assistance for older adults living alone, addressing the growing challenge of elderly isolation through intelligent conversational technology.",
+      challenges: [
+        "Designing natural, empathetic AI conversations suitable for elderly users",
+        "Building reliable long-term memory and context management for meaningful ongoing relationships",
+        "Ensuring accessibility and ease of use for non-tech-savvy users",
+        "Integrating multiple Azure AI services into a cohesive user experience"
+      ],
+      solutions: [
+        "Led the project from user needs discovery and product definition to MVP delivery",
+        "Designed a long-term conversational memory and context management pipeline for personalized interactions",
+        "Integrated Microsoft AI stack (Azure OpenAI, Speech services) for natural voice interactions",
+        "Hands-on contribution to prompt design, API integration, and end-to-end system integration"
+      ],
+      results: [
+        "Successfully delivered MVP for Microsoft Imagine Cup 2026 submission",
+        "Owned core product and technical decisions as Product & AI Integration Lead",
+        "Built functional prototype with voice-based AI companion capabilities",
+        "Established scalable architecture for future feature expansion"
+      ],
+      transferableSkills: [
+        "AI product development: End-to-end experience from ideation to MVP delivery",
+        "Azure AI integration: Practical skills with OpenAI and Speech services applicable to enterprise solutions",
+        "User-centered design: Focus on accessibility and inclusive design for diverse user groups",
+        "Technical leadership: Proven ability to lead product and technical decisions in cross-functional teams"
+      ]
     }
     // Add more portfolio items here if needed
   ];
